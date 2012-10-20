@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: bj - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/bj.res" /d "_DEBUG" /d "_AFXDLL" "C:\projects\bj\bj.rc"" 
+Creating temporary file "C:\DOCUME~1\Devin\LOCALS~1\Temp\RSP39.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/bj.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\projects\bj\BetMissThread.cpp"
+"C:\projects\bj\bj.cpp"
+"C:\projects\bj\bjDlg.cpp"
+"C:\projects\bj\DialogMistakes.cpp"
+"C:\projects\bj\DlgPractice.cpp"
+"C:\projects\bj\CountDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Devin\LOCALS~1\Temp\RSP39.tmp" 
+Creating temporary file "C:\DOCUME~1\Devin\LOCALS~1\Temp\RSP3A.tmp" with contents
+[
+\Release\CardLib.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/bj.pdb" /debug /machine:I386 /out:"Debug/bj.exe" /pdbtype:sept 
+.\Debug\BetMissThread.obj
+.\Debug\bj.obj
+.\Debug\bjDlg.obj
+.\Debug\BJHistory.obj
+.\Debug\Deck.obj
+.\Debug\DialogMistakes.obj
+.\Debug\DlgPractice.obj
+.\Debug\HyperLink.obj
+.\Debug\PropBid.obj
+.\Debug\PropCasino.obj
+.\Debug\PropPlay.obj
+.\Debug\PropStrategy.obj
+.\Debug\StdAfx.obj
+.\Debug\bj.res
+.\Debug\CountDlg.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Devin\LOCALS~1\Temp\RSP3A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+bjDlg.cpp
+C:\projects\bj\bjDlg.cpp(348) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(349) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(350) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(351) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(355) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(356) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(357) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(358) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(359) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(360) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(361) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(362) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(363) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(364) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(365) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(366) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\bjDlg.cpp(1841) : warning C4101: 'pCopy' : unreferenced local variable
+C:\projects\bj\bjDlg.cpp(1902) : warning C4101: 'pCopy' : unreferenced local variable
+DlgPractice.cpp
+C:\projects\bj\DlgPractice.cpp(244) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\projects\bj\DlgPractice.cpp(260) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+CountDlg.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+BetMissThread.cpp
+bj.cpp
+DialogMistakes.cpp
+Linking...
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+bj.exe - 0 error(s), 21 warning(s)
+</pre>
+</body>
+</html>

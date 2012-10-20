@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CardLib", "..\CardLib\CardLib.vcproj", "{29C91BF0-8A81-4C84-A958-2796B0E2F584}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bj", "bj.vcproj", "{7F869671-5433-49BD-B277-FC3908890E75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		DebugPro|Win32 = DebugPro|Win32
+		Release Pro Trial|Win32 = Release Pro Trial|Win32
+		Release Trial|Win32 = Release Trial|Win32
+		Release|Win32 = Release|Win32
+		ReleasePro|Win32 = ReleasePro|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29C91BF0-8A81-4C84-A958-2796B0E2F584}.Debug|Win32.ActiveCfg = Debug|Win32
+		{29C91BF0-8A81-4C84-A958-2796B0E2F584}.Debug|Win32.Build.0 = Debug|Win32
+		{29C91BF0-8A81-4C84-A958-2796B0E2F584}.DebugPro|Win32.ActiveCfg = Debug|Win32
+		{29C91BF0-8A81-4C84-A958-2796B0E2F584}.DebugPro|Win32.Build.0 = Debug|Win32
+		{29C91BF0-8A81-4C84-A958-2796B0E2F584}.Release Pro Trial|Win32.ActiveCfg = Release|Win32
+		{29C91BF0-8A81-4C84-A958-2796B0E2F584}.Release Pro Trial|Win32.Build.0 = Release|Win32
+		{29C91BF0-8A81-4C84-A958-2796B0E2F584}.Release Trial|Win32.ActiveCfg = Release|Win32
+		{29C91BF0-8A81-4C84-A958-2796B0E2F584}.Release Trial|Win32.Build.0 = Release|Win32
+		{29C91BF0-8A81-4C84-A958-2796B0E2F584}.Release|Win32.ActiveCfg = Release|Win32
+		{29C91BF0-8A81-4C84-A958-2796B0E2F584}.Release|Win32.Build.0 = Release|Win32
+		{29C91BF0-8A81-4C84-A958-2796B0E2F584}.ReleasePro|Win32.ActiveCfg = Release|Win32
+		{29C91BF0-8A81-4C84-A958-2796B0E2F584}.ReleasePro|Win32.Build.0 = Release|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.Debug|Win32.Build.0 = Debug|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.DebugPro|Win32.ActiveCfg = DebugPro|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.DebugPro|Win32.Build.0 = DebugPro|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.Release Pro Trial|Win32.ActiveCfg = Release Pro Trial|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.Release Pro Trial|Win32.Build.0 = Release Pro Trial|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.Release Trial|Win32.ActiveCfg = Release Trial|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.Release Trial|Win32.Build.0 = Release Trial|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.Release|Win32.ActiveCfg = Release|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.Release|Win32.Build.0 = Release|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.ReleasePro|Win32.ActiveCfg = ReleasePro|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.ReleasePro|Win32.Build.0 = ReleasePro|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

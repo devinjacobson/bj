@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bj", "bj.vcproj", "{7F869671-5433-49BD-B277-FC3908890E75}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		DebugPro = DebugPro
+		Release = Release
+		Release Pro Trial = Release Pro Trial
+		Release Trial = Release Trial
+		ReleasePro = ReleasePro
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7F869671-5433-49BD-B277-FC3908890E75}.Debug.ActiveCfg = Debug|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.Debug.Build.0 = Debug|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.DebugPro.ActiveCfg = DebugPro|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.DebugPro.Build.0 = DebugPro|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.Release.ActiveCfg = Release|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.Release.Build.0 = Release|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.Release Pro Trial.ActiveCfg = Release Pro Trial|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.Release Pro Trial.Build.0 = Release Pro Trial|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.Release Trial.ActiveCfg = Release Trial|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.Release Trial.Build.0 = Release Trial|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.ReleasePro.ActiveCfg = ReleasePro|Win32
+		{7F869671-5433-49BD-B277-FC3908890E75}.ReleasePro.Build.0 = ReleasePro|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

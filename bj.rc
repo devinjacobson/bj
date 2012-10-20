@@ -1,0 +1,657 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Japanese resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_MISTAKES DIALOG DISCARDABLE  0, 0, 457, 182
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Play Mistakes"
+MENU IDR_MENU_MISTAKES
+FONT 9, "‚l‚r ‚oƒSƒVƒbƒN"
+BEGIN
+    CONTROL         "List1",IDC_LIST_MISTAKES,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,0,7,144,125
+    EDITTEXT        IDC_EDIT_TOTAL_MISTAKES,200,44,45,14,ES_AUTOHSCROLL
+    LTEXT           "Total Mistakes",IDC_STATIC,146,49,44,8
+    LTEXT           "Bet Mistakes",IDC_STATIC,148,68,40,8
+    LTEXT           "Play Mistakes",IDC_STATIC,148,88,42,8
+    EDITTEXT        IDC_EDIT_BET_MISTAKES,200,64,45,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PLAY_MISTAKES,201,84,45,14,ES_AUTOHSCROLL
+    LTEXT           "Total Possible",IDC_STATIC,149,25,43,8
+    LTEXT           "Total Actual",IDC_STATIC,148,111,37,8
+    EDITTEXT        IDC_EDIT_TOTAL_POSSIBLE,201,23,43,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TOTAL_ACTUAL,201,106,45,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TOTAL_MISTAKES2,256,45,45,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BET_MISTAKES2,256,65,45,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PLAY_MISTAKES2,257,85,45,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TOTAL_POSSIBLE2,257,23,43,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TOTAL_ACTUAL2,257,107,45,13,ES_AUTOHSCROLL
+    LTEXT           "Standard Strategy",IDC_STATIC,255,10,54,10
+    LTEXT           "Your Play",IDC_STATIC,201,9,48,12
+    PUSHBUTTON      "Change Standard Strategy",IDC_BUTTON_CHANGE_STRATEGY,
+                    257,122,42,29,BS_MULTILINE | NOT WS_VISIBLE | 
+                    WS_DISABLED
+    CONTROL         "List1",IDC_LIST_MISTAKES_STANDARD,"SysListView32",
+                    LVS_REPORT | WS_BORDER | WS_TABSTOP,310,7,144,125
+    LTEXT           "Hands Played",IDC_STATIC,85,163,41,8
+    LTEXT           "Win/Hand",IDC_STATIC,270,164,30,8
+    LTEXT           "Avg Standard Count",IDC_STATIC,354,164,60,8
+    EDITTEXT        IDC_EDIT_HANDS_PLAYED,130,161,40,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_WIN_HAND,306,161,40,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_AVG_STANDARD_COUNT,415,161,40,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "Time Played",IDC_STATIC,178,163,37,8
+    EDITTEXT        IDC_EDIT_TIME_PLAYED,223,161,40,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "Theoretical Win",IDC_STATIC,11,163,34,8
+    LTEXT           "Actual Win",IDC_STATIC,13,146,37,8
+    EDITTEXT        IDC_EDIT_ACTUAL_WIN,56,143,22,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_THEORETICAL_WIN,55,162,25,13,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+END
+
+IDD_DIALOG_PRACTICE DIALOG DISCARDABLE  0, 0, 447, 246
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Practice"
+MENU IDR_MENU_PRACTICE
+FONT 9, "‚l‚r ‚oƒSƒVƒbƒN"
+BEGIN
+    PUSHBUTTON      "&Stand",IDC_BUTTON_STAND,7,109,38,18
+    PUSHBUTTON      "&Hit",IDC_BUTTON_HIT,7,137,38,18
+    PUSHBUTTON      "&Double",IDC_BUTTON_DOUBLE,7,165,38,18
+    PUSHBUTTON      "S&plit",IDC_BUTTON_SPLIT,7,193,38,18
+    EDITTEXT        IDC_EDIT_WAGER,7,61,34,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Bet",IDC_BUTTON_BET,7,85,28,15
+    EDITTEXT        IDC_EDIT_MONEY,7,27,39,13,ES_AUTOHSCROLL
+    LTEXT           "Money",IDC_STATIC,7,15,20,8
+    LTEXT           "Bet",IDC_STATIC,7,47,11,8
+END
+
+IDD_SETTINGS_DIALOG DIALOG DISCARDABLE  0, 0, 320, 201
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,263,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,263,24,50,14
+END
+
+IDD_DIALOG_BID_SETTINGS DIALOG DISCARDABLE  0, 0, 187, 89
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Bid Settings"
+FONT 9, "‚l‚r ‚oƒSƒVƒbƒN"
+BEGIN
+    LTEXT           "High Bid",IDC_STATIC,20,20,26,8
+    LTEXT           "Low Bid",IDC_STATIC,20,37,24,8
+    EDITTEXT        IDC_EDIT_HIGH_BID,52,17,46,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOW_BID,52,33,46,13,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_PLAY_SETTINGS DIALOG DISCARDABLE  0, 0, 187, 89
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Play Settings"
+FONT 9, "‚l‚r ‚oƒSƒVƒbƒN"
+BEGIN
+    LTEXT           "Play Speed (1=fast, 10=slow)",IDC_STATIC,25,21,86,8
+    LTEXT           "Number of Players",IDC_STATIC,25,35,55,8
+    EDITTEXT        IDC_EDIT_PLAY_SPEED,114,19,44,11,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NUM_PLAYERS,111,35,44,11,ES_AUTOHSCROLL
+    LTEXT           "Deck Penetration (What percentage of the deck is played)",
+                    IDC_STATIC,26,56,66,26
+    EDITTEXT        IDC_EDIT_PENETRATION,113,61,43,12,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_CASINO_SETTINGS DIALOG DISCARDABLE  0, 0, 187, 138
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Casino Settings"
+FONT 9, "‚l‚r ‚oƒSƒVƒbƒN"
+BEGIN
+    CONTROL         "Hit Soft 17",IDC_CHECK_HIT_SOFT17,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,44,71,42,9
+    LTEXT           "Can Double",IDC_STATIC,12,29,36,7
+    LTEXT           "Can Split",IDC_STATIC,14,51,32,7
+    EDITTEXT        IDC_EDIT_NUM_DECKS,47,7,34,13,ES_AUTOHSCROLL
+    LTEXT           "Decks",IDC_STATIC,17,9,19,7
+    CONTROL         "Double After Split Allowed",IDC_CHECK_DAS_ALLOWED,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,46,89,89,9
+    CONTROL         "Aces",IDC_CHECK_CAN_DOUBLE_ACES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,50,29,30,11
+    CONTROL         "10,11",IDC_CHECK_CAN_DOUBLE_1011,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,85,29,30,11
+    CONTROL         "9",IDC_CHECK_CAN_DOUBLE_9,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,119,30,18,11
+    CONTROL         "8&&Below",IDC_CHECK_CAN_DOUBLE_ACES4,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,141,30,39,11
+    CONTROL         "Aces",IDC_CHECK_CAN_SPLIT_ACES,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,48,51,30,11
+    EDITTEXT        IDC_EDIT_NUM_SPLITS,116,52,18,12,ES_AUTOHSCROLL
+    LTEXT           "Up To",IDC_STATIC,95,53,19,8
+    LTEXT           "Hands",IDC_STATIC,138,53,19,8
+END
+
+IDD_DIALOG_STANDARD_STRATEGY DIALOG DISCARDABLE  0, 0, 187, 89
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Standard Strategy"
+FONT 9, "‚l‚r ‚oƒSƒVƒbƒN"
+BEGIN
+    LTEXT           "Choose Strategy",IDC_STATIC,18,14,50,11
+    COMBOBOX        IDC_COMBO_STANDARD_STRATEGY,17,30,54,36,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG_COUNT DIALOG DISCARDABLE  0, 0, 187, 89
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "‚l‚r ‚oƒSƒVƒbƒN"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,24,50,14
+    EDITTEXT        IDC_EDIT_COUNT,32,29,40,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_MISTAKES, DIALOG
+    BEGIN
+        RIGHTMARGIN, 455
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_DIALOG_PRACTICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 440
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 239
+    END
+
+    IDD_SETTINGS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_DIALOG_BID_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+    END
+
+    IDD_DIALOG_PLAY_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+    END
+
+    IDD_DIALOG_CASINO_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+
+    IDD_DIALOG_STANDARD_STRATEGY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+    END
+
+    IDD_DIALOG_COUNT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_PRACTICE MENU DISCARDABLE 
+BEGIN
+    POPUP "D&eck"
+    BEGIN
+        MENUITEM "Settings",                    ID_MENU_DECK_SETTINGS
+        MENUITEM "&Reshuffle",                  ID_MENU_DECK_RESHUFFLE
+        MENUITEM "&View Mistakes",              ID_MENU_VIEWMISTAKES
+        MENUITEM "&Show Count",                 ID_MENU_SHOW_COUNT
+    END
+END
+
+IDR_MENU_MISTAKES MENU DISCARDABLE 
+BEGIN
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Session",                    ID_MENUITEM_MISTAKES_VIEW_SESSION
+
+        MENUITEM "&Day",                        ID_MENUITEM_MISTAKES_VIEW_DAY
+
+        MENUITEM "&Week",                       ID_MENUITEM_MISTAKES_VIEW_WEEK
+
+        MENUITEM "&Month",                      ID_MENUITEM_MISTAKES_VIEW_MONTH
+
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_STANDARD_STRATEGY DLGINIT
+BEGIN
+    IDC_COMBO_STANDARD_STRATEGY, 0x403, 15, 0
+0x6948, 0x6867, 0x4c2f, 0x776f, 0x4320, 0x756f, 0x746e, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_BITMAP_BACK         BITMAP  DISCARDABLE     "Background02.bmp"
+#endif    // Japanese resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\bj.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About bj"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "bj Version 1.0",IDC_STATIC,39,13,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) Sequin Software 2001-2003",IDC_STATIC1,40,
+                    25,156,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "www.sequinsoftware.com",IDC_STATIC2,41,36,78,8
+END
+
+IDD_BJ_DIALOG DIALOGEX 0, 0, 455, 317
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "bj"
+MENU IDR_MENU_DLG
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT22,53,172,63,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "B:",IDC_STATIC,41,174,8,8,NOT WS_VISIBLE
+    CONTROL         "List1",IDC_LIST_REMAINING,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,189,131,121
+    EDITTEXT        IDC_EDIT_WAGER,119,129,40,14,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_EDIT_TOTAL,118,147,40,14,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    LTEXT           "Wager",IDC_STATIC,90,131,22,8,NOT WS_VISIBLE
+    LTEXT           "Total",IDC_STATIC,94,150,17,8,NOT WS_VISIBLE
+    CONTROL         "Autoplay",IDC_CHECK_AUTOPLAY,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_TABSTOP,411,255,43,10
+    EDITTEXT        IDC_EDIT_DEALERW,48,130,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MEW,48,152,40,14,ES_AUTOHSCROLL
+    LTEXT           "Dealer Win Probability",IDC_STATIC,7,131,37,16
+    LTEXT           "My Win Probability",IDC_STATIC,7,154,36,16
+    EDITTEXT        IDC_EDIT_DEALER_CARDS,66,67,80,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ME_CARDS,65,89,78,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "New Hand",IDC_BUTTON_NEW_HAND,412,269,42,14,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "Reshuffle",IDC_BUTTON_RESHUFFLE,412,286,42,14,NOT 
+                    WS_VISIBLE
+    CONTROL         "Dealer Hand",IDC_RADIO_DEALER2,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED | WS_GROUP,7,69,51,11
+    CONTROL         "My Hand",IDC_RADIO_ME2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,7,89,37,10
+    EDITTEXT        IDC_EDIT_DDADVANTAGE,165,25,40,14,ES_AUTOHSCROLL
+    LTEXT           "Double Down",IDC_STATIC,165,17,44,8
+    EDITTEXT        IDC_EDIT_SPLITADVANTAGE,165,47,40,14,ES_AUTOHSCROLL
+    LTEXT           "Split",IDC_STATIC,165,39,14,8
+    EDITTEXT        IDC_EDIT_COMMAND,95,110,40,14,ES_AUTOHSCROLL
+    LTEXT           "Command:",IDC_STATIC,57,112,34,8
+    EDITTEXT        IDC_EDIT_BJ_ADVANTAGE,165,72,40,14,ES_AUTOHSCROLL
+    LTEXT           "BJ",IDC_STATIC,165,62,9,8
+    EDITTEXT        IDC_EDIT_HANDS_PLAYED,76,7,40,14,ES_AUTOHSCROLL
+    LTEXT           "Hands Played:",IDC_STATIC,16,10,47,8
+    CONTROL         "List1",IDC_LIST_DECISION,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,212,15,243,215
+    LTEXT           "Decision Matrix",IDC_STATIC,243,6,49,8
+    CONTROL         "Hit/Stand",IDC_RADIO_HIT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,157,173,47,10
+    CONTROL         "Double",IDC_RADIO_DOUBLE,"Button",BS_AUTORADIOBUTTON,
+                    157,184,39,10
+    CONTROL         "Split",IDC_RADIO_SPLIT,"Button",BS_AUTORADIOBUTTON,157,
+                    195,29,10
+    CONTROL         "Aces",IDC_RADIO_ACE,"Button",BS_AUTORADIOBUTTON,157,206,
+                    32,10
+    GROUPBOX        "Decision Matrix",IDC_STATIC,151,164,57,59
+    GROUPBOX        "Probabilities",IDC_STATIC,7,60,57,45
+    EDITTEXT        IDC_EDIT_WON,76,22,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOST,76,39,40,14,ES_AUTOHSCROLL
+    LTEXT           "Winning",IDC_STATIC,18,27,27,8
+    LTEXT           "Losing",IDC_STATIC,18,43,22,8
+    GROUPBOX        "Advantages",IDC_STATIC,161,6,50,141
+    LTEXT           "With Hit",IDC_STATIC,165,90,26,8
+    LTEXT           "W/O Hit",IDC_STATIC,165,116,28,8
+    EDITTEXT        IDC_EDIT_WHIT,165,98,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_WOHIT,165,126,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_WAGER,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_ARROWKEYS | NOT WS_VISIBLE,111,129,
+                    11,14
+    PUSHBUTTON      "1",IDC_BUTTON_D1,172,242,16,14,NOT WS_VISIBLE
+    GROUPBOX        "Dealer",IDC_STATICPRO2,163,232,71,75,NOT WS_VISIBLE
+    PUSHBUTTON      "2",IDC_BUTTON_D2,190,242,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "3",IDC_BUTTON_D3,208,242,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "4",IDC_BUTTON_D4,172,259,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "5",IDC_BUTTON_D5,190,259,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "6",IDC_BUTTON_D6,208,259,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "7",IDC_BUTTON_D7,172,276,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "8",IDC_BUTTON_D8,190,276,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "9",IDC_BUTTON_D9,208,276,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "10",IDC_BUTTON_D10,173,292,50,12,NOT WS_VISIBLE
+    PUSHBUTTON      "1",IDC_BUTTON_M1,255,241,16,14,NOT WS_VISIBLE
+    GROUPBOX        "Me",IDC_STATICPRO,247,232,71,75,NOT WS_VISIBLE
+    PUSHBUTTON      "2",IDC_BUTTON_M2,273,241,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "3",IDC_BUTTON_M3,291,241,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "4",IDC_BUTTON_M4,255,259,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "5",IDC_BUTTON_M5,273,259,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "6",IDC_BUTTON_M6,291,259,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "7",IDC_BUTTON_M7,255,276,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "8",IDC_BUTTON_M8,273,276,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "9",IDC_BUTTON_M9,291,276,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "10",IDC_BUTTON_M10,257,292,50,12,NOT WS_VISIBLE
+    PUSHBUTTON      "1",IDC_BUTTON_O1,343,241,16,14,NOT WS_VISIBLE
+    GROUPBOX        "Others",IDC_STATICPRO3,334,231,71,75,NOT WS_VISIBLE
+    PUSHBUTTON      "2",IDC_BUTTON_O2,361,241,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "3",IDC_BUTTON_O3,379,241,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "4",IDC_BUTTON_O4,343,258,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "5",IDC_BUTTON_O5,361,258,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "6",IDC_BUTTON_O6,379,258,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "7",IDC_BUTTON_O7,343,275,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "8",IDC_BUTTON_O8,361,275,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "9",IDC_BUTTON_O9,379,275,16,14,NOT WS_VISIBLE
+    PUSHBUTTON      "10",IDC_BUTTON_O10,344,291,50,12,NOT WS_VISIBLE
+    LTEXT           "Deck",IDC_STATIC,7,177,25,11
+    CONTROL         "All Manual",IDC_CHECK_ALLMANUAL,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,411,241,47,
+                    10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_BJ_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 310
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_DLG MENU DISCARDABLE 
+BEGIN
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Settings",                   ID_MENUITEM_VIEW_SETTINGS
+        MENUITEM "&Mistakes",                   ID_MENUITEM_VIEW_MISTAKES
+        MENUITEM "&Practice",                   ID_MENUITEM_VIEW_PRACTICE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      ID_MENU_HELP_ABOUT
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\bj.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "bj MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "bj\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "bj.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "bj Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS DISCARDABLE 
+BEGIN
+    "0",            ID_10,                  VIRTKEY, NOINVERT
+    "1",            ID_1,                   VIRTKEY, NOINVERT
+    "2",            ID_2,                   VIRTKEY, NOINVERT
+    "3",            ID_3,                   VIRTKEY, NOINVERT
+    "4",            ID_4,                   VIRTKEY, NOINVERT
+    "5",            ID_5,                   VIRTKEY, NOINVERT
+    "6",            ID_6,                   VIRTKEY, NOINVERT
+    "7",            ID_7,                   VIRTKEY, NOINVERT
+    "8",            ID_8,                   VIRTKEY, NOINVERT
+    "9",            ID_9,                   VIRTKEY, NOINVERT
+    "C",            ID_CALCULATE,           VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_DEALERFOCUS,         VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_LOST,                VIRTKEY, CONTROL, NOINVERT
+    "M",            ID_MEFOCUS,             VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_HANDOVER,            VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_NOBODY,              VIRTKEY, CONTROL, NOINVERT
+    "W",            ID_WON,                 VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_MENU_SHOW_COUNT,     VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About bj..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\bj.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

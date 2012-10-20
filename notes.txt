@@ -1,0 +1,103 @@
+1/variance*root(2PI)   
+
+*  e^((x-mean)^2/2*variance^2)
+
+
+
+N = total experiments
+
+p = prob1
+
+q = prob2
+
+variance = root(Npq)
+
+
+root(Npq) = 60*.47*.48 = 3.67
+
+
+Can't use casino on the net, they reshuffle after every hand.  Or after every few.  
+In 30 hands I saw 6 Q of Hearts and 7 7 of hearts.  THose were the only 2 I counted.  
+This is supposed to be out of a 4 deck chute. 
+
+Some of the decks would be shuffled after a certain period of time. 
+Can just leave the room and then come back so I have a fresh deck.  
+
+
+rvg04312914
+
+
+On each decision matrix, I should have a detailed percentage of the hands.  
+That means if .0045% of hands are like that, that is what I should put in the matrix.  
+Then put a detailed checkbox, so they can look at the decision or at the percent of hands that are like that.  
+Also add a percent of hands for the total doubled and the split hands.  
+
+Compare the win loss probability with the win loss probability of another strategy 
+and show the play mistakes with that strategy and show the bet mistakes with that strategy.  
+Just do a standard strategy for now and then you can implement a strategy dialog 
+so that they will be able to change the strategy for the next version if there ever is any.  
+
+
+Have the other players be able to play standard strategy or just a random strategy.
+
+This should be an option.  
+
+However the most convincing sales point is going to be personal win/loss.  
+
+set play practice and ace practice, split practice, double practice
+and bet practice.  That way
+they will be able to practice tough situations.  
+If ace practice they shouldn't count toward the total.  Also, double
+practice would be the same way, and split.  
+
+Maybe add all of the mistakes for one hour together and then put them into a tree or something
+instead of having them all seperate.  This is a tough proposition, I dont know which will be 
+better, but the thing is there can get to be too many if the person is not so good.  
+
+Maybe show only the first 10 or so from every day or from every hour or something.  
+
+check for mistake consistency.  Consistently twice below the approximated win.  
+
+
+data from test 1-5 bid.
+460 hands
+7.55 win
+2.3 bet mistakes
+0.87 play mistakes
+
+280 losing hands
+3 hours
+
+
+1630 
+17.80
+6.65
+2.45
+1115 losing
+
+2575
+3690
+perfect 0.48% advantage
+standard 0.24% advantage
+
+
+data from test 1-5 bid.
+1172 hands
+10.25 win
+4.35 bet mistakes
+1.57 play mistakes
+
+835 losing hands
+
+9 hours
+
+
+Have the people who use the software to post findings on the forum so you have like a
+centralized knowledge base about blackjack.  They can share if they want and they can 
+not if they want.  
+
+you want to enable all of the dialog functions for the pro version, make sure all of this 
+is integrated with the PracticeDlg, just take out the next # from the deck.  You should have
+another count as well for that, and maybe allow them to adjust the strategy.  Look at other 
+strategy dialogs for this to see what you should offer.  Just do something fairly standard.
+
